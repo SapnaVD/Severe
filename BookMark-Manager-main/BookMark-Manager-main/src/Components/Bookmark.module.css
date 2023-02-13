@@ -1,0 +1,100 @@
+.title {
+  text-align: center;
+  color: aliceblue;
+}
+
+.layout {
+  position: relative;
+  border: rgb(89, 89, 89) 3px solid;
+  margin: 5rem 30rem;
+  background-color: #ff8ac9;
+  border-radius: 5px;
+  -webkit-box-shadow: 9px 10px 21px 3px rgba(186, 186, 186, 1);
+  -moz-box-shadow: 9px 10px 21px 3px rgba(186, 186, 186, 1);
+  box-shadow: 9px 10px 21px 3px rgba(186, 186, 186, 1);
+  transition: 0.4s;
+}
+
+.description {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.layout:hover {
+  -webkit-box-shadow: 3px 10px 21px 3px rgba(235, 235, 235, 1);
+  -moz-box-shadow: 3px 10px 21px 3px rgba(235, 235, 235, 1);
+  box-shadow: 3px 10px 21px 3px rgba(235, 235, 235, 1);
+}
+
+.success {
+  background-color: rgba(154, 205, 50, 0.8);
+}
+
+.icon1 {
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  border: 3px solid;
+  padding: 5px;
+  color: maroon;
+  background-color: white;
+  right: -20px;
+  top: -20px;
+  transition: 0.3s all;
+}
+
+.icon1:hover {
+  font-size: 24px;
+}
+
+.icon2 {
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  border: 3px solid;
+  padding: 5px;
+  color: green;
+  background-color: white;
+  right: 30px;
+  top: -20px;
+  transition: 0.3s all;
+}
+
+.icon2:hover {
+  font-size: 24px;
+}
+
+.icon3 {
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  border: 3px solid;
+  padding: 5px;
+  color: red;
+  background-color: white;
+  right: 30px;
+  top: -20px;
+  transition: 0.3s all;
+}
+
+.icon3:hover {
+  font-size: 24px;
+}
+
+.icon4 {
+  cursor: pointer;
+  position: absolute;
+  font-size: 20px;
+  border: 3px solid;
+  padding: 5px;
+  color: slategrey;
+  background-color: white;
+  right: 80px;
+  top: -20px;
+  transition: 0.3s all;
+}
+
+.icon4:hover {
+  font-size: 24px;
+}

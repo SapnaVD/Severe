@@ -1,0 +1,38 @@
+.navlay {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: flex-start;
+  background-color: #ffd0e9;
+}
+
+.navhead {
+  color: #e61284;
+}
+
+.navleft {
+  margin-left: 7rem;
+}
+
+.navright {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: flex-end;
+  gap: 3rem;
+  margin-left: 20rem;
+}
+
+.btnstyle {
+  cursor: pointer;
+  background-color: #ff1493;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: azure;
+  font-weight: 600;
+  transition: 0.3s all;
+}
+
+.btnstyle:hover {
+  color: #ff1493;
+  background-color: azure;
+}
